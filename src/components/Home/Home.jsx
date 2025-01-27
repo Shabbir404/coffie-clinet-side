@@ -50,11 +50,11 @@ const Home = () => {
             <div className='mt-20'>
                 <div>
                     <h3 className='text-center mb-5'>--- Sip & Savor ---</h3>
-                    <h1 className='text-center text-outline mb-5 rancho-font text-5xl text-[#331A15]'>Our Popular Products</h1>
+                    <h1 className='text-center text-outlineS mb-5 rancho-font font-bold text-5xl text-[#331A15]'>Our Popular Products</h1>
                     <div className='flex justify-center mb-4 md:mb-10'>
                         <Link to='/addcoffee' className='cursor-pointer border-2 rancho-font 
                          rounded-md border-[#331A15] pl-4 pr-4 pb-1 pt-1 text-deep-shadow text-2xl
-                          text-white bg-[#E3B577] flex '> Add Coffee
+                          text-white bg-[#E3B577] flex hover:bg-[#D2B48C] '> Add Coffee
                             <CiCoffeeCup className='text-[#331A15] text-2xl mt-1 ml-1'></CiCoffeeCup></Link>
                     </div>
                 </div>

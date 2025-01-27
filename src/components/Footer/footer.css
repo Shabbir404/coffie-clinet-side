@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
+
 .rancho-font {
     font-family: "Rancho", serif;
-    font-weight: 600;
+    font-weight: 100;
     font-style: normal;
 }
 
@@ -14,10 +15,10 @@
 
 }
 
-.text-outline {
+.text-outlines {
     text-shadow:
-        -2px -2px 0 #fffbfb,
-        2px -2px 0 #ededed,
-        -2px 2px 0 #ffffff,
-        2px 2px 0 #ffffff;
+        -1px -1px 3px rgba(105, 98, 98, 0.5),
+        1px -1px 3px rgba(105, 98, 98, 0.5),
+        -1px 1px 3px rgba(105, 98, 98, 0.5),
+        1px 1px 3px rgba(105, 98, 98, 0.5);
 }

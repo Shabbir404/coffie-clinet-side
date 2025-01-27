@@ -16,6 +16,7 @@ const Addcoffee = () => {
                         w-[820px]">It is a long established fact that a reader will be distraceted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using Content here.</p>
                     </div>
 
+                    {/* add coffee form section*/}
                     <div className="md:w-8/12 mx-auto w-full">
                         <form className="mt-8 px-4 md:px-0">
                             <div className="md:flex justify-between">
@@ -63,10 +64,11 @@ const Addcoffee = () => {
                                     placeholder="Enter photo URL"
                                     className="w-full mb-4 mt-3 bg-white p-2 border-0 outline-none" />
                                 <button className="w-full p-2 rounded-md rancho-font font-medium text-2xl 
-            bg-[#D2B48C] border-2 border-[#331A15] cursor-pointer hover:bg-[#e6ceb0]">Add Coffee</button>
+                                bg-[#D2B48C] border-2 border-[#331A15] cursor-pointer hover:bg-[#e6ceb0]">Add Coffee</button>
                             </div>
                         </form>
                     </div>
+                    {/* add coffee form section*/}
                 </div>
             </div>
         </div>
