@@ -25,3 +25,19 @@
     color: white;
 
 }
+
+.text-outline {
+    text-shadow:
+        -1px -1px 0 #696262,
+        1px -1px 0 #696262,
+        -1px 1px 0 #696262,
+        1px 1px 0 #696262;
+}
+
+.text-deep-shadow {
+    text-shadow:
+        -1px -1px 0 #4e4e4e,
+        1px -1px 0 #4e4e4e,
+        -1px 1px 0 #4e4e4e,
+        1px 1px 0 #4e4e4e;
+}
