@@ -6,7 +6,10 @@ import coffie4 from '../../images/icons/4.png'
 import { CiCoffeeCup } from "react-icons/ci";
 import './home.css'
 import { Link } from 'react-router-dom'
+import Coffee_page from '../CoffeePage/Coffee_page'
+
 const Home = () => {
+
     return (
         <div>
             <div className='w-full relative flex'>
@@ -22,7 +25,7 @@ const Home = () => {
             </div>
             {/* top discribe */}
             <div className='w-full h-[250px] bg-[#ECEAE3] hidden md:block'>
-                <div className='w-8/12 mx-auto flex md:space-x-12 justify-center'>
+                <div className='w-8/12 space-x-8 mx-auto flex  justify-center'>
                     <div className='mt-12'>
                         <img className='w-14 h-14' src={coffie1} alt="" />
                         <h1 className='rancho-font text-[#331A15] text-3xl mt-5'>Awesome Aroma</h1>
@@ -59,7 +62,9 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-
+            {/* coffee page added */}
+            <Coffee_page></Coffee_page>
+            {/* coffee page end */}
         </div>
     );
 };

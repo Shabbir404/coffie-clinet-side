@@ -16,7 +16,7 @@ const Footer = () => {
                 <div>
                     <img className='bg-cover h-full md:h-[580px] w-full' src={footerIMG} alt="" />
                 </div>
-                <div className='w-8/12 mx-auto absolute top-0 left-0 right-0'>
+                <div className='md:w-8/12 w-10/12 mx-auto absolute top-0 left-0 right-0'>
                     <div className='mt-16'>
                         <img className='w-20' src={logoIMG} alt="" />
                     </div>
